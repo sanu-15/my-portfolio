@@ -1,18 +1,49 @@
-# React + Vite
+# my-portfolio
+Personal Portfolio built with React, Bootstrap &amp; MERN stack basics. 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ # Saniya Paswan Portfolio
 
-Currently, two official plugins are available:
+A personal portfolio website built with **React**, **Bootstrap**, and basic **MERN stack knowledge**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Dark/Light mode toggle
+- Responsive design
+- Projects section with live links and code links
+- Contact form (with backend API)
+- Skills and education showcase
 
-## React Compiler
+## Tech Stack
+- React, Bootstrap, JavaScript, TypeScript
+- Node.js, Express, MongoDB
+- HTML, CSS, PHP, MySQL, Java
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## Live Demo
+[View Live](https://your-deployed-link.netlify.app)
 
-Note: This will impact Vite dev & build performances.
+## Contact
+- Email: saniyapaswan5@gmail.com
+- LinkedIn: [https://www.linkedin.com/in/saniya-paswan-b16305274](https://www.linkedin.com/in/saniya-paswan-b16305274)
+- GitHub: [https://github.com/sanu-15](https://github.com/sanu-15)
+# Saniya Paswan Portfolio
 
-## Expanding the ESLint configuration
+A personal portfolio website built with **React**, **Bootstrap**, and basic **MERN stack knowledge**.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+- Dark/Light mode toggle
+- Responsive design
+- Projects section with live links and code links
+- Contact form (with backend API)
+- Skills and education showcase
+
+## Tech Stack
+- React, Bootstrap, JavaScript, TypeScript
+- Node.js, Express, MongoDB
+- HTML, CSS, PHP, MySQL, Java
+
+## Live Demo
+[View Live](https://your-deployed-link.netlify.app)
+
+## Contact
+- Email: saniyapaswan5@gmail.com
+- LinkedIn: [https://www.linkedin.com/in/saniya-paswan-b16305274](https://www.linkedin.com/in/saniya-paswan-b16305274)
+- GitHub: [https://github.com/sanu-15](https://github.com/sanu-15)
