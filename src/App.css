@@ -1,0 +1,150 @@
+/* Root layout */
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Dark Mode */
+.bg-dark-green {
+  background-color: #0a0f1f !important;
+  color: #00c8ff !important;
+}
+
+/* Buttons */
+.btn,
+.gradient-green,
+.btn-outline-success {
+  font-size: 14px;
+  padding: 8px 18px !important;
+  border-radius: 10px;
+  border: none;
+  transition: all 0.3s;
+  color: #00c8ff !important;
+  background-color: transparent;
+  box-shadow: 0 0 10px #00c8ff;
+}
+.btn:hover,
+.gradient-green:hover,
+.btn-outline-success:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0 20px #00c8ff, 0 0 35px #0077ff;
+  background-color: #0a0f1f;
+  color: #00c8ff !important;
+}
+
+/* Cards */
+.card-3d {
+  transition: all 0.3s;
+  cursor: pointer;
+  border-radius: 14px !important;
+  padding: 1rem !important;
+  background-color: #111827;
+  color: #00c8ff;
+}
+.card-3d:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0 25px #00c8ff, 0 0 35px #0077ff;
+}
+
+/* Center Projects */
+#projects .row {
+  justify-content: center !important;
+  text-align: center !important;
+}
+#projects .project-card {
+  margin: 0 auto !important;
+}
+
+/* Hero Image */
+.hero-img {
+  width: 220px !important;
+  height: 220px !important;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #00c8ff;
+  box-shadow: 0 0 25px #00c8ff;
+}
+.hero-img-wrapper {
+  perspective: 1000px;
+}
+.hero-img-wrapper:hover .hero-img {
+  transform: rotateY(8deg) rotateX(8deg) scale(1.05);
+  box-shadow: 0 0 35px #00c8ff, 0 0 50px #0077ff;
+}
+/* About Cards */
+.about-card {
+  border-radius: 18px;
+  padding: 1.5rem !important;
+  transition: all 0.3s;
+  background-color: #111827;
+  color: #00c8ff;
+  text-align: center !important; /* Center text in About section */
+}
+.about-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0 25px #00c8ff, 0 0 35px #0077ff;
+}
+
+/* Skills / Badges */
+.glow-badge {
+  text-shadow: 0 0 5px #00c8ff, 0 0 15px #03254c;
+  background: #111827;
+  border-radius: 8px;
+  padding: 5px 10px;
+  margin: 2px;
+  display: inline-block;
+  color: #00c8ff;
+}
+/* Message Me inputs white background */
+#contact input,
+#contact textarea {
+  text-align: center !important;
+  border-radius: 10px;
+  border: 1px solid #00c8ff;
+  background-color: #ffffff; /* White background */
+  color: #0a0f1f; /* Dark text inside */
+  box-shadow: 0 0 10px #00c8ff inset;
+}
+#contact input::placeholder,
+#contact textarea::placeholder {
+  color: #e0e1e5; /* Dark placeholder text */
+}
+
+/* Contact Section */
+#contact {
+  text-align: center !important;
+  padding: 2rem 0 !important;
+}
+#contact form {
+  margin: 0 auto;
+  max-width: 420px;
+  text-align: center !important;
+}
+#contact input,
+#contact textarea {
+  text-align: center !important;
+  border-radius: 10px;
+  border: 1px solid #00c8ff;
+  background-color: #111827;
+  color: #00c8ff;
+  box-shadow: 0 0 10px #00c8ff inset;
+}
+
+/* Footer */
+footer {
+  margin-top: 0;
+  padding: 1.2rem !important;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #0a0f1f;
+  color: #00c8ff;
+}
+/* Root layout */
+#root {
+  max-width: 1280px;
+  margin: 0 20px; /* Left and right margin added */
+  padding: 2rem;
+  font-family: "Segoe UI", sans-serif;
+}
