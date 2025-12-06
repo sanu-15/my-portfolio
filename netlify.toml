@@ -1,8 +1,4 @@
-
-[build]
-  base = "frontend"          # Tera React/Vite project folder
-  publish = "dist"           # Vite build output folder
-  command = "npm run build"  # Build command
-
-[dev]
-  framework = "vite"
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
